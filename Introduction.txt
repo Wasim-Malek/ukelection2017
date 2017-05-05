@@ -1,0 +1,2 @@
+Problem
+UK Prime Minister has called an election in June 2017. I am going to put my skills to the test to see if the election outcome can be predicted using twitter sentiment.
