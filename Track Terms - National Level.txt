@@ -1,0 +1,11 @@
+TRACK_TERMS = ['conservatives', 'theresa may', 'conservative party', 'theresamay', 'tories', 'tory', 'conservativeparty',
+               'labour party', 'jeremy corbyn', 'jeremycorbyn', 'labour', 'labourparty', 'corbyn',
+               'nicola sturgeon', 'nicolasturgeon', 'scottishnationalparty', 'scottish national party', 'snp',
+               'tim farron', 'timfarron', 'liberal democrats', 'liberaldemocrats', 'libdems', 'libdem',
+               'arlene foster', 'arlenefoster', 'democratic unionist party', 'democraticunionistparty', 'dup',
+               'gerry adams', 'gerryadams', 'sinn fein', 'sinnfein',
+               'leanne wood', 'leannewood', 'plaid cymru', 'plaid', 'plaidcymru',
+               'Colum Eastwood', 'ColumEastwood', 'Social Democratic and Labour Party', 'SocialDemocraticandLabourParty', 'sdlp',
+               'Robin Swann', 'RobinSwann', 'Ulster Unionist Party', 'UlsterUnionistParty', 'uup',
+               'Caroline Lucas', 'CarolineLucas', 'Jonathan Bartley','JonathanBartley', 'Green Party', 'GreenParty',
+               'Paul Nuttall', 'PaulNuttall', 'UK Independence Party', 'UKIndependenceParty', 'UKIP']
