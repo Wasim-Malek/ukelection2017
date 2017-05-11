@@ -64,10 +64,6 @@ class MyListener(tweepy.StreamListener):
 
 
 
-TWITTER_KEY = '3156604010-jvQbB0JY4qWWiHcA1CymT1yimkzIHupm63ffA2j'
-TWITTER_SECRET = 'i5CNIq3eTrAgn5x7i7hIapk6ghyfx2isNUSToAcFKipFL'
-TWITTER_APP_KEY =  'qFna9qwaUFSR4H4LZqwmSGP9y'
-TWITTER_APP_SECRET =  'NPRAFA0ipfHvVJztoE66uDt5dzPYcXSK9fVdabxDIA6lZbuvhH'
 
 TRACK_TERMS = ['Corbyn','Theresa May','Labour','Conservatives','Tories','Brexit', 'Lib Dems', 'Tim Farron','GeneralElection','Liberal Democrats']
 
