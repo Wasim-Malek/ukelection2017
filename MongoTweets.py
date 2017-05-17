@@ -15,9 +15,9 @@ class My_MongoDB(object):
 
 
     def connect_to_mongo(self):
-        global connection = pymongo.MongoClient()
-        global db = connection.self.database
-        global coll = db.self.collection
+        connection = pymongo.MongoClient()
+        db = connection.self.database
+        coll = db.self.collection
         return coll
 
     def add_polarity(self,collection):
@@ -56,7 +56,7 @@ class MyListener(tweepy.StreamListener):
             tweet['Polarity'] = polarity
             tweet['Subjectivity'] = subjectivity
 
-            db.coll.insert(tweet)
+            coll.insert(tweet)
 
 
         except:
@@ -64,8 +64,12 @@ class MyListener(tweepy.StreamListener):
 
 
 
+TWITTER_KEY = '3156604010-jvQbB0JY4qWWiHcA1CymT1yimkzIHupm63ffA2j'
+TWITTER_SECRET = 'i5CNIq3eTrAgn5x7i7hIapk6ghyfx2isNUSToAcFKipFL'
+TWITTER_APP_KEY =  'qFna9qwaUFSR4H4LZqwmSGP9y'
+TWITTER_APP_SECRET =  'NPRAFA0ipfHvVJztoE66uDt5dzPYcXSK9fVdabxDIA6lZbuvhH'
 
-TRACK_TERMS = ['Corbyn','Theresa May','Labour','Conservatives','Tories','Brexit', 'Lib Dems', 'Tim Farron','GeneralElection','Liberal Democrats']
+TRACK_TERMS = ['Corbyn','Theresa May','Labour','Conservatives','Tories', 'Lib Dems', 'Tim Farron','GeneralElection','Liberal Democrats']
 
 
 auth = tweepy.OAuthHandler(TWITTER_APP_KEY, TWITTER_APP_SECRET)
