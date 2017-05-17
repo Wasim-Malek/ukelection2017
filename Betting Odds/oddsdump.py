@@ -20,4 +20,4 @@ cols = ['constituency', 'date', 'dt', 'html dump']
 oddspd = DataFrame(odds, columns=cols)
 
 # append to csv
-oddspd.to_csv('C:\data\odds.csv', mode='a')
+oddspd.to_csv('C:\data\odds.csv', mode='a', header=False)
