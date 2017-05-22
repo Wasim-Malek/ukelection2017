@@ -1,0 +1,17 @@
+import pytrends
+from pytrends.request import TrendReq
+import pandas as pd
+from pandas import DataFrame, Series
+import numpy as np
+import json
+
+def retrieve_google_trends(start_date='2017-04-18', end_date=''):
+    if end_date == '':
+        import datetime as dt
+        end_date = str(dt.datetime.today())[:10]
+    period = start_date + ' ' + end_date
+    pytrend = TrendReq('google_username', 'google_password', custom_useragent='My Pytrends Script')
+    pytrend.build_payload(kw_list=[keyword] ,timeframe=period)
+    return pytrend.interest_over_time()
+
+data = retrieve_google_trends() 
