@@ -1,0 +1,27 @@
+debate 1:
+search term: #leadersdebate
+timeframe: 19th to 20th
+
+debate 2:
+search term: #itvdebate
+timeframe: 19th to 20th
+
+labourmanifesto:
+search term: #labourmanifesto
+timeframe: 10th to 17th
+
+labourmanifesto2:
+search term: #labourmanifesto
+timeframe: 16th to 18th
+
+libdemmanifesto:
+search term: libdemmanifesto
+timeframe: 17th to 19th
+
+torymanifesto:
+search term: torymanifesto
+timeframe: 18th
+
+torymanifesto2:
+search term: torymanifesto
+timeframe: 19th to 20th

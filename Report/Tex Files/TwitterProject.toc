@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Possible Approaches}{3}
+\contentsline {section}{\numberline {3}Chosen Approach}{3}
+\contentsline {subsection}{\numberline {3.1}Twitter Sentiment}{4}
+\contentsline {subsection}{\numberline {3.2}Google Trends}{5}
+\contentsline {subsection}{\numberline {3.3}Voting Polls}{5}
+\contentsline {subsection}{\numberline {3.4}Betting Odds}{5}
+\contentsline {subsection}{\numberline {3.5}Prediction}{5}
+\contentsline {section}{\numberline {4}Visualisations}{6}
+\contentsline {section}{\numberline {5}Prediction}{6}
+\contentsline {section}{\numberline {6}Summary}{6}
